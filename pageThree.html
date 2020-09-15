@@ -73,12 +73,20 @@
             text-align: center;
             text-decoration: none;
             display: inline-block;
-        }
+            transition: color 0.3s linear;
+            -webkit-transition: color 0.3s linear;
+            -moz-transition: color 0.3s linear;
+            }
 
-        a:hover, a:active {
-        background-color: #e6ccff;
-        }
+            a:hover, a:active {
+            background-color: rgb(197, 176, 209);
+            color:rgba(255, 255, 255, 0.329);
+            }
 
+            a.color-one:hover {
+            background-color: rgba(250, 233, 178, 0.329);
+            color: rgba(255, 215, 215, 0.329);
+            }
     </style>
 
 
@@ -87,14 +95,14 @@
 </head>
 <body>
     <video autoplay muted loop id="video">
-        <source src="https://res.cloudinary.com/dfg0l4zth/video/upload/v1600205267/sky_ox1lag.mp4" type="video/mp4">
+        <source src="https://res.cloudinary.com/dfg0l4zth/video/upload/v1600206321/bamboo_igwnq9.mp4" type="video/mp4">
       </video>
       
       <div class="content">
         <h1>☾</h1>
         <h2>n i g h t</h2>
         <a href="index.html">h o m e </a>
-        <a href="pageTwo.html">✺</a>
+        <a href="pageTwo.html" class="color-one">✺</a>
             <content><center>Reminders for myself :
                 ⚝ Venture / Have Fun ⚝
                 ༄ Cleanse ༄
