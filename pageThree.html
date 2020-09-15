@@ -9,23 +9,75 @@
     <style>
         
         body {
-            background-image: url('img-sq/4.jpeg'); 
-            background-size: cover;
+        margin: 0;
+        font-family: Arial;
+        font-size: 17px;
+        }
+
+        #video {
+            left: 50%;
+            max-width: 100%;
+            position: absolute;
+            top: 50%;
+            transform: translate(-50%, -50%);
+        }
+
+        .content {
+            position: fixed;
+            left: 40%;
+            top: 25%;
+            background: rgba(228, 228, 228, 0.329);
+            color: #f1f1f1;
+            width: 20%;
+            height: 60%;
+            padding: 14px;
+        }
+        h1{ 
+            color:white;
+            font-size: 30px;
+            text-align:center;
+            display:inline-block;
+            position:relative;
+            width:100%; /*Add this*/
+        }
+
+        h2{ 
+            color:white;
+            font-size:12px;
+            font-family: "Comic Sans MS", cursive, sans-serif;
+            text-align:center;
+            display:inline-block;
+            position:relative;
+            width:100%; /*Add this*/
+            bottom: 30px;
+            }
+
+        content {
+            color: white;
+            font-family: "Alegreya Sans SC",sans-serif;
+            letter-spacing: 1px;
+            font-size: 12px;
+            padding: 9px 25px;
+            white-space: pre-line; 
+            font-variant-position: normal;
+        }
+
+        a:link, a:visited {
+            font-size: 13px;
+            position:relative;
+            width:100%; /*Add this*/
+            bottom: 30px;
+            background-color: transparent;
+            color: white;
+            padding: 9px 25px;
             text-align: center;
-        }
-        
-        a {
-            margin-left:50px;
-            margin-top: 10px;
+            text-decoration: none;
+            display: inline-block;
         }
 
-        .wrapper {
-            width: 750px;
-            height: 600px;
-            margin: 0 auto; 
-            
+        a:hover, a:active {
+        background-color: #e6ccff;
         }
-
 
     </style>
 
@@ -34,18 +86,24 @@
     <title>Document</title>
 </head>
 <body>
-    
-    <nav class="ui three item menu">
+    <video autoplay muted loop id="video">
+        <source src="https://res.cloudinary.com/dfg0l4zth/video/upload/v1600205267/sky_ox1lag.mp4" type="video/mp4">
+      </video>
+      
+      <div class="content">
+        <h1>☾</h1>
+        <h2>n i g h t</h2>
+        <a href="index.html">h o m e </a>
+        <a href="pageTwo.html">✺</a>
+            <content><center>Reminders for myself :
+                ⚝ Venture / Have Fun ⚝
+                ༄ Cleanse ༄
+                ∾ Rest ∾</center>
+            </content>
+      </div>
+      
+      <script>
 
-        <a href="index.html">&#9064;</a>
-        <a href="pageTwo.html">&#8981;</a>
-        <a href="pageThree.html">&#8966;</a>
-
-    </nav>
-
-    <div class="wrapper">
-        <img src="img-sq/5.jpeg" alt="">
-    </div>
-
+      </script>
 </body>
 </html>
