@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.css">
+<style>
+
+body {
+  margin: 0;
+  font-family: Arial;
+  font-size: 17px;
+}
+
+#video {
+    left: 50%;
+    max-width: 100%;
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.content {
+    position: fixed;
+    bottom: 3%;
+    left: 40%;
+    top: 30%;
+    background: rgba(228, 228, 228, 0.329);
+    color: #f1f1f1;
+    width: 20%;
+    height: 30%;
+    padding: 14px;
+}
+h1{ 
+    color:white;
+    font-size: 30px;
+    text-align:center;
+    display:inline-block;
+    position:relative;
+    width:100%; /*Add this*/
+   }
+
+h2{ 
+    color:white;
+    font-size:12px;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    text-align:center;
+    display:inline-block;
+    position:relative;
+    width:100%; /*Add this*/
+    bottom: 30px;
+    }
+
+a:link, a:visited {
+    font-size: 13px;
+    position:relative;
+    width:100%; /*Add this*/
+    bottom: 30px;
+    background-color: transparent;
+    color: white;
+    padding: 9px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+a:hover, a:active {
+  background-color: #e6ccff;
+}
+
+</style>
+</head>
+<body>
+
+    <video autoplay muted loop id="myVideo">
+        <source src="video/lav.mp4" type="video/mp4">
+      </video>
+      
+      <div class="content">
+        <h1>漢 方</h1>
+        <h2>s i m p l e   w a y s   o f   h e a l i n g</h2>
+        <a href="pageTwo.html">every day</a>
+        <a href="pageThree.html">every night</a>
+      </div>
+      
+      <script>
+
+      </script>
+</body>
+</html>
