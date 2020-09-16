@@ -73,11 +73,20 @@
             text-align: center;
             text-decoration: none;
             display: inline-block;
+            transition: color 0.3s linear;
+            -webkit-transition: color 0.3s linear;
+            -moz-transition: color 0.3s linear;
         }
 
         a:hover, a:active {
-        background-color: #e6ccff;
-        }
+            background-color: rgb(197, 176, 209);
+            color:rgba(255, 255, 255, 0.329);
+            }
+
+        a.color-one:hover {
+            background-color: rgba(64, 51, 119, 0.329);
+            color: rgba(255, 215, 215, 0.329);
+            }
 
     </style>
 
@@ -94,7 +103,7 @@
         <h1>✺</h1>
         <h2>day</h2>
         <a href="index.html">h o m e </a>
-        <a href="pageThree.html">☾</a>
+        <a href="pageThree.html" class = "color-one">☾</a>
             <content><center>Reminders for myself :
                 ❀ Drink tea ❀
                 ⚘ Eat ⚘

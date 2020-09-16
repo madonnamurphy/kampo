@@ -79,13 +79,19 @@ a.color-one:hover {
   color: rgba(228, 228, 228, 0.329);
 }
 
+
+
 </style>
 </head>
 <body>
+    <iframe src="audio/source.mp3" allow="autoplay" style="display:none" id="iframeAudio"></iframe> 
+    <audio autoplay loop  id="playAudio">
+        <source src="audio/source.mp3">
+        </audio>
 
     <video autoplay muted loop id="myVideo">
         <source src="https://res.cloudinary.com/dfg0l4zth/video/upload/v1600199404/lav_tykoev.mp4" type="video/mp4">
-      </video>
+        </video>
       
       <div class="content">
         <h1>漢 方</h1>
